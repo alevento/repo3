@@ -11,10 +11,10 @@
         }
     ],
     "require": {
-		"alevento/repo1" : "dev-master"
+		
     },
     "require-dev": {
-
+		"alevento/repo1" : "dev-master"
     },
     "autoload": {
 
