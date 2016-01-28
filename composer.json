@@ -14,7 +14,7 @@
 		
     },
     "require-dev": {
-		"alevento/repo1" : "dev-master"
+		"alevento/repo1" 
     },
     "autoload": {
 
