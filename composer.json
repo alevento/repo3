@@ -1,0 +1,28 @@
+{
+    "name": "alevento/repo2",
+    "description": "test composer recursivity",
+    "keywords": ["composer", "recursivity"],
+    "license": "MIT",
+    "type": "project",
+	"authors": [
+        {
+            "name": "alevento",
+            "email": "helpdesk@padosoft.com"
+        }
+    ],
+    "require": {
+		"alevento/repo1" : "dev-master"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+
+        
+    },
+    "autoload-dev": {
+
+        
+    }
+
+}
