@@ -1,0 +1,73 @@
+[
+    {
+        "name": "alevento/repo2",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/alevento/repo2.git",
+            "reference": "69f2957ef87c798b5d5a3f4a31d2ec43aebadc11"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/alevento/repo2/zipball/69f2957ef87c798b5d5a3f4a31d2ec43aebadc11",
+            "reference": "69f2957ef87c798b5d5a3f4a31d2ec43aebadc11",
+            "shasum": ""
+        },
+        "time": "2016-01-28 17:21:12",
+        "type": "project",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "alevento",
+                "email": "helpdesk@padosoft.com"
+            }
+        ],
+        "description": "test composer recursivity",
+        "keywords": [
+            "composer",
+            "recursivity"
+        ]
+    },
+    {
+        "name": "alevento/repo1",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/alevento/repo1.git",
+            "reference": "a34d2b653d5ecf0b0a6af1f80ca34c6f72349280"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/alevento/repo1/zipball/a34d2b653d5ecf0b0a6af1f80ca34c6f72349280",
+            "reference": "a34d2b653d5ecf0b0a6af1f80ca34c6f72349280",
+            "shasum": ""
+        },
+        "require": {
+            "alevento/repo2": "dev-master"
+        },
+        "time": "2016-01-28 17:27:10",
+        "type": "project",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "alevento",
+                "email": "helpdesk@padosoft.com"
+            }
+        ],
+        "description": "test composer recursivity",
+        "keywords": [
+            "composer",
+            "recursivity"
+        ]
+    }
+]

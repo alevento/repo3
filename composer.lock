@@ -1,0 +1,88 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d89c6d4df275e5af8a3ae3e46efffc2f",
+    "content-hash": "9d61f43241eff9bc0f5faf5d30af3863",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "alevento/repo1",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alevento/repo1.git",
+                "reference": "a34d2b653d5ecf0b0a6af1f80ca34c6f72349280"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alevento/repo1/zipball/a34d2b653d5ecf0b0a6af1f80ca34c6f72349280",
+                "reference": "a34d2b653d5ecf0b0a6af1f80ca34c6f72349280",
+                "shasum": ""
+            },
+            "require": {
+                "alevento/repo2": "dev-master"
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "alevento",
+                    "email": "helpdesk@padosoft.com"
+                }
+            ],
+            "description": "test composer recursivity",
+            "keywords": [
+                "composer",
+                "recursivity"
+            ],
+            "time": "2016-01-28 17:27:10"
+        },
+        {
+            "name": "alevento/repo2",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alevento/repo2.git",
+                "reference": "69f2957ef87c798b5d5a3f4a31d2ec43aebadc11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alevento/repo2/zipball/69f2957ef87c798b5d5a3f4a31d2ec43aebadc11",
+                "reference": "69f2957ef87c798b5d5a3f4a31d2ec43aebadc11",
+                "shasum": ""
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "alevento",
+                    "email": "helpdesk@padosoft.com"
+                }
+            ],
+            "description": "test composer recursivity",
+            "keywords": [
+                "composer",
+                "recursivity"
+            ],
+            "time": "2016-01-28 17:21:12"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "alevento/repo1": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
